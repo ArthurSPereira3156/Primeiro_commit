@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.container {
+    width: 450px;
+    background-color: (black);
+    backdrop-filter: blur(50px);
+    padding: 40px;
+    border-radius: 10px;
+    border-radius: 0%;
+    font-family: 'Press Start 2P', sans-serif; /* Fonte 8-bit */
+    
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Press Start 2P', sans-serif; /* Fonte 8-bit */
+}
+
+.container .input-field {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 30px auto;
+    font-family: 'Press Start 2P', sans-serif; /* Fonte 8-bit para o texto */
+    text-transform: uppercase;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: black;
+    font-size: 14px;
+    border-radius: 0; /* Cantos quadrados */
+    font-family: 'Press Start 2P', sans-serif; /* Fonte 8-bit */
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input-field input::placeholder {
+    color: black;
+}
+
+.input-field .icon {
+    right: 25px;
+    top: 50px;
+    transform: translateY(-50%);
+    bottom: 50px;
+}
+
+.container .recall-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0;
+}
+
+.recall-forget input {
+    margin-right: 5px;
+}
+
+.recall-forget a, .signup-link p a {
+    color: black;
+    text-decoration: none;
+}
+
+.recall-forget a:hover, .signup-link p a:hover {
+    text-decoration: underline;
+}
+
+.container button {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0; /* Cantos quadrados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', sans-serif; /* Fonte 8-bit */
+}
+
+
+.container .signup-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+    text-shadow: none;
+    font-family: 'Press Start 2P', sans-serif; /* Fonte 8-bit */
+}
